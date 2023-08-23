@@ -17,6 +17,7 @@ $(".cerrar").click(function (e) {
     
 });
 
+/*
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
@@ -27,7 +28,7 @@ $(window).scroll(function () {
     }
         
 })
-
+*/
 
 
 

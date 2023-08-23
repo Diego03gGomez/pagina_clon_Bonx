@@ -606,20 +606,23 @@ padding: 50px 70px;
     border-radius: 5px 10px 5px 20px;
 }
 
+
+/*
 header{
     transition: all 0.40s;
+    position: fixed;
+
+    width: 100%;
 }
 
 
 .menu_efecto{
     transition: all 0.40s;
     background-color: #09003d;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  
 
     z-index: 990;
-}
+}*/
 
 
 
