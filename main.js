@@ -17,6 +17,20 @@ $(".cerrar").click(function (e) {
     
 });
 
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    if(scroll>100){
+    $("header").addClass("menu_efecto");
+    } else{
+        $("header").removeClass("menu_efecto");
+    }
+        
+})
+
+
+
+
 
 
 

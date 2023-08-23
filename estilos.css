@@ -606,6 +606,20 @@ padding: 50px 70px;
     border-radius: 5px 10px 5px 20px;
 }
 
+header{
+    transition: all 0.40s;
+}
+
+
+.menu_efecto{
+    transition: all 0.40s;
+    background-color: #110653;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 990;
+}
 
 
 
