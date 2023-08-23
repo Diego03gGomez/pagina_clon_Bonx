@@ -866,6 +866,7 @@ padding: 50px 70px;
 
 .titulo_principio p{
     text-align: center;
+    font-size: 15px;
 }
 
 .blog{
@@ -905,6 +906,14 @@ padding: 50px 70px;
 .cont_planetas{
     width: 90%;
     padding: 50px 30px;
+}
+
+.titulo_fondo2 h1{
+    font-size: 28px;
+}
+
+.img_blog img{
+    width: 80%;
 }
 
 }
