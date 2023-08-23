@@ -835,6 +835,9 @@ header{
     text-align: center;
   }
 
+  .titulo_principio p{
+    margin-bottom: 54px;
+  }
 
 
 
@@ -884,6 +887,7 @@ header{
 .titulo_principio p{
     text-align: center;
     font-size: 15px;
+    margin-bottom: 54px;
 }
 
 .blog{
