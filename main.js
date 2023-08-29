@@ -68,7 +68,7 @@ $(_ => {
 });
 
 $(_ => {
-    let target = parseInt($(".violet2").text());
+    let target = parseInt($(".violeta2").text());
     let current = 0;
     let interval = setInterval(() => {
         $(".violeta2").text(current);
@@ -78,6 +78,94 @@ $(_ => {
         current++;
     }, 10);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO PARA EL SLIDER*/
+
+let slideIndex = 0;
+showSlide(slideIndex);
+
+$(".prev").click(function() {
+    slideIndex--;
+    showSlide(slideIndex);
+});
+
+$(".next").click(function() {
+    slideIndex++;
+    showSlide(slideIndex);
+});
+
+function showSlide(index) {
+    let slides = $("#slider ul li");
+    if (index < 0) {
+        slideIndex = slides.length - 1;
+    } else if (index >= slides.length) {
+        slideIndex = 0;
+    }
+    slides.hide();
+    slides.eq(slideIndex).show();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
