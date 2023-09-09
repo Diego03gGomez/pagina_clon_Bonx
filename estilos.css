@@ -173,8 +173,10 @@ border-radius: 10px;
 
 #fondo_body{
     background-image: url(/imagenes/img_body.jpeg);
-  
-    background-size: cover;
+    background-image: url(https://htmldemo.net/bonx/bonx/assets/img/bg/body-bg.webp);
+background-position: center;  
+background-repeat: no-repeat;
+background-size: cover;
   
     padding-top: 100px;
 }
