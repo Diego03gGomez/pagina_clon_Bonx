@@ -738,6 +738,16 @@ top: 200px;
     width: 90%;
 }
 
+.cont_principio{
+  /*  background-color: red;*/
+    margin-top: 27px;
+}
+
+.titulo_principio h1{
+    font-size: 67px;
+}
+
+
 
 .cont_fondo2{
     width: 80%;
