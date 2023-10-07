@@ -728,7 +728,7 @@ top: 200px;
 
 
 
-@media (max-width: 1324px){
+@media (max-width: 1524px){
 
 .cont_header{
     width: 90%;
@@ -741,6 +741,7 @@ top: 200px;
 .cont_principio{
   /*  background-color: red;*/
     margin-top: 27px;
+
 }
 
 .titulo_principio h1{
@@ -773,6 +774,12 @@ top: 200px;
 
 
 .cont_planetas{
+    width: 80%;
+}
+
+.cont_principio{
+  /*  background-color: red;*/
+    margin-top: 0px;
     width: 80%;
 }
 
